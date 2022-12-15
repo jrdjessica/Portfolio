@@ -1,7 +1,6 @@
 import React from 'react';
 
 import '../App.css';
-import Nav from './Nav';
 import Home from './Home';
 import Skills from './Skills';
 import About from './About';
@@ -14,7 +13,6 @@ function App() {
   return (
     <div>
       <Router>
-        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
