@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 
 
 function About() {
@@ -7,6 +6,8 @@ function About() {
         <div class="about">
             <div class="about-container">
                 <h1>About Me</h1>
+
+                {/* About me bio */}
                 <p id="about-content">
                     I'm Jessica. I am a full stack software engineer born and bred in the bay area.
                     I first discovered my interest in programming while working at a COVID-19 test site where I began teaching
@@ -20,6 +21,8 @@ function About() {
                     contribute to the world by developing software that leaves a positive impact on the communities that were
                     such an integral part of my life and continue to impact the lives of many others.
                 </p>
+
+                {/* Portrait */}
                 <div id="portrait"></div>
             </div>
         </div>

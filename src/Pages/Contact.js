@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 
 
 function EmailForm() {
@@ -68,9 +67,10 @@ function DashboardContainer() {
 function Contact() {
     return (
         <div class="contact">
-            <DashboardContainer />
             <div class="contact-color">
-                <div class="contact-content" id="contact"></div>
+                <div class="contact-content" id="contact">
+                    <DashboardContainer />
+                </div>
             </div>
         </div>
     );

@@ -1,10 +1,9 @@
 import React from 'react';
-import '../App.css';
 
 function Error() {
     return (
         <div>
-            Error. Page not found.
+            <p>Error. Page not found.</p>
         </div>
     );
 }

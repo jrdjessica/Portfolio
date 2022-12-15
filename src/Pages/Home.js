@@ -1,6 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
 
 
 const projects = [
@@ -23,7 +21,7 @@ const projects = [
     {
         "title": "Personal Portfolio",
         "description": "A site for my personal projects and career updates to live on. This ongoing project is hosted on Github Pages and is being continuously updated.",
-        "tech": "Python | Javascript | Flask | HTML | CSS | Bootstrap",
+        "tech": "Javascript | React | HTML | CSS | Bootstrap",
         "github": "https://github.com/jrdjessica/portfolio",
         "visit-msg": "",
         "visit": "https://jrdjessica.github.io/"
@@ -58,7 +56,7 @@ function Projects(props) {
             <h3 key='proj-title'>{props.project['title']}</h3>
             <p key='description'>{props.project['description']}</p>
             <p key='tech'>{props.project['tech']}</p>
-            <Button message={''} link={props.project['github']} class={'btn'} />
+            <Button message={''} link={props.project['github']} class={'btn'} name="Github Code" />
             {props.project['visit-msg'] && <Button message={props.project['visit-msg']} link={props.project['visit']} class={'btn'} />}
         </div>
     )

@@ -1,42 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* #################### NAV BAR ####################*/
 
 nav {
   display: flex;
@@ -44,6 +6,31 @@ nav {
   align-items: center;
   background-color: #c0d3c6;
   height: 35px;
+}
+
+.navbar-custom-theme {
+  background: #e0d1c0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-custom-theme .nav-link {
+  margin-left: 10px;
+  color: #403930;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-custom-theme .nav-link:hover {
+  color: white;
+  background-color: #beb1a2;
 }
 
 .nav-links {
@@ -55,6 +42,13 @@ nav {
   font-weight: 300;
 }
 
+.nav-right {
+  position: absolute;
+  right: 0;
+}
+
+
+/* #################### PORTFOLIO HOME ####################*/
 .portfolio-header {
   background-image: url(/src/Imgs/cattails.jpg);
   width: 100%;
@@ -114,14 +108,14 @@ nav {
   display: inline-block;
 }
 
-.btn {
+button.btn {
   background-color: transparent;
   text-transform: uppercase;
   font-family: 'Playfair Display', 'Times New Roman', Times, serif;
   font-weight: 500;
 }
 
-.btn:hover {
+button.btn:hover {
   background-color: #c7c0b8;
   color: white;
 }
@@ -161,6 +155,8 @@ nav {
   color: black;
 }
 
+
+/* #################### SKILLS ####################*/
 .skills {
   margin: 0 auto;
   padding-bottom: 0;
@@ -199,9 +195,11 @@ nav {
   height: 80vh;
   width: 40%;
   border-radius: 900px 900px 0 0;
-  background-color: #efe8de;
+  background-color: #f3f0eb;
 }
 
+
+/* #################### ABOUT ME ####################*/
 .about {
   background-image: url(/src/Imgs/gingko.jpg);
   min-height: 80vh;
@@ -235,6 +233,8 @@ nav {
   border: rgb(202, 212, 195) solid 10px;
 }
 
+
+/* #################### CONTACT ME ####################*/
 .contact {
   background-image: url(/src/Imgs/on_the_bay_of_naples.jpg);
   filter: grayscale(50%);
@@ -253,7 +253,7 @@ nav {
 
 .contact-color {
   background: #9fb3a2;
-  opacity: 0.90;
+  opacity: 0.80;
   border-radius: 20px 0 0 20px;
   min-height: 85vh;
   width: 75%;
@@ -311,6 +311,11 @@ nav {
 .contact-link:hover {
   background-color: #c7c0b8;
   color: white;
+}
+
+.thanks {
+  margin-top: 100px;
+  text-align: center;
 }
 
 body {
