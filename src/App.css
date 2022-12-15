@@ -50,7 +50,7 @@ nav {
 
 /* #################### PORTFOLIO HOME ####################*/
 .portfolio-header {
-  background-image: url(/src/Imgs/cattails.jpg);
+  background-image: url(/src/imgs/cattails.jpg);
   width: 100%;
   min-height: 100vh;
   background-size: cover;
@@ -165,7 +165,7 @@ button.btn:hover {
 }
 
 .skills-pic {
-  background-image: url(/src/Imgs/new_york_harbor.jpg);
+  background-image: url(/src/imgs/new_york_harbor.jpg);
   filter: grayscale(50%);
   height: 35vh;
   background-size: cover;
@@ -201,7 +201,7 @@ button.btn:hover {
 
 /* #################### ABOUT ME ####################*/
 .about {
-  background-image: url(/src/Imgs/gingko.jpg);
+  background-image: url(/src/imgs/gingko.jpg);
   min-height: 80vh;
   width: 100%;
   background-size: cover;
@@ -222,7 +222,7 @@ button.btn:hover {
 }
 
 #portrait {
-  background-image: url(/src/Imgs/portrait.jpg);
+  background-image: url(/src/imgs/portrait.jpg);
   background-size: cover;
   background-position: center;
   height: 350px;
@@ -236,7 +236,7 @@ button.btn:hover {
 
 /* #################### CONTACT ME ####################*/
 .contact {
-  background-image: url(/src/Imgs/on_the_bay_of_naples.jpg);
+  background-image: url(/src/imgs/on_the_bay_of_naples.jpg);
   filter: grayscale(50%);
   border-radius: 20px;
   background-size: cover;
