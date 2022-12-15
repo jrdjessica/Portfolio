@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
 
@@ -96,6 +97,7 @@ function Home() {
             </div>
             <Portfolio />
         </div>
+
     );
 }
 
