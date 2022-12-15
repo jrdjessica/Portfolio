@@ -4,7 +4,9 @@ import '../App.css';
 function Thanks() {
     return (
         <div>
-            Thanks. Page not found.
+            <h1>Thank you </h1>
+
+            <p>Your submission was received.</p>
         </div>
     );
 }
