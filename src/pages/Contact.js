@@ -8,12 +8,21 @@ function EmailForm() {
         <div>
             <h3>Email Me</h3>
             <form action="https://formsubmit.co/jessicajdea@gmail.com" method="POST">
+                {/* Name input */}
                 <input type="text" name="name" placeholder="Name" id='name' required></input>
                 <br />
+
+                {/* Email input */}
                 <input type="email" name="email" placeholder="Email Address" id='email' required></input>
                 <br />
+
+                {/* Email subject line */}
                 <input type="hidden" name="_subject" value="New submission"></input>
+
+                {/* Email content */}
                 <textarea row="5" col="6" name="name" placeholder="Write your message here..." id='email-message' required></textarea>
+
+                {/* Send user to thanks page after submission */}
                 <input type="hidden" name="_next" value="https://jrdjessica.github.io/thanks"></input>
                 <div>
                     <button type="submit" id="send-btn">Submit</button>
