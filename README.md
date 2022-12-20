@@ -14,6 +14,9 @@ My personal portfolio contains my completed projects as well as my journey throu
 - Bootstrap
 
 ## Screenshot
+### Homepage
 ![Homepage](/src/imgs/screenshots/home.png "Homepage")
-![Skills](/src/imgs/screenshots/skills.png"Skills")
+### Skills
+![Skills](/src/imgs/screenshots/skills.png "Skills")
+### Contact
 ![Contact Me](/src/imgs/screenshots/contact.png "Contact Me")
