@@ -23,7 +23,7 @@ function EmailForm() {
                 <textarea row="5" col="6" name="name" placeholder="Write your message here..." id='email-message' required></textarea>
 
                 {/* Send user to thanks page after submission */}
-                <input type="hidden" name="_next" value="https://jrdjessica.github.io/thanks"></input>
+                <input type="hidden" name="_next" value="https://jrdjessica.github.io/portfolio/#/thanks"></input>
                 <div>
                     <button type="submit" id="send-btn">Submit</button>
                 </div>

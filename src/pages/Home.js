@@ -71,7 +71,7 @@ function Portfolio() {
             {projects.map((project, index) => <Projects key={index} project={project} />)}
             <div className="circle">
                 <p id='circle-text'>Check often for updates on my newest projects.<br />Or contact me below.</p>
-                <Button message={'Contact Me'} link={'https://jrdjessica.github.io/contact'} class={'contact-btn'} />
+                <Button message={'Contact Me'} link={'https://jrdjessica.github.io/portfolio/#/contact'} class={'contact-btn'} />
             </div>
         </div >
     );
