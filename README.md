@@ -1,5 +1,5 @@
 # Portfolio
-See it live: https://jrdjessica.github.io/
+See it live: https://jrdjessica.github.io/portfolio/#/
 
 
 ## Project Description
