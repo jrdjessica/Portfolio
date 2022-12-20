@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06847d3d.css",
-    "main.js": "/static/js/main.ed68f5e0.js",
+    "main.js": "/static/js/main.256c91b0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/on_the_bay_of_naples.jpg": "/static/media/on_the_bay_of_naples.c168e2c101da34049d22.jpg",
     "static/media/cattails.jpg": "/static/media/cattails.106dee41f25aa35b2b85.jpg",
@@ -10,11 +10,11 @@
     "static/media/portrait.jpg": "/static/media/portrait.0e0d2b77bd3700e0c9a3.jpg",
     "index.html": "/index.html",
     "main.06847d3d.css.map": "/static/css/main.06847d3d.css.map",
-    "main.ed68f5e0.js.map": "/static/js/main.ed68f5e0.js.map",
+    "main.256c91b0.js.map": "/static/js/main.256c91b0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06847d3d.css",
-    "static/js/main.ed68f5e0.js"
+    "static/js/main.256c91b0.js"
   ]
 }
