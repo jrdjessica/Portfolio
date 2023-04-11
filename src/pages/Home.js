@@ -23,7 +23,7 @@ const projects = [
         "description": "This application allows users to display current and future weather conditions utilizing the OpenWeather API.",
         "tech": "Python | Javascript | Flask | HTML | CSS | Bootstrap",
         "github": "https://github.com/Weather-App-Collab/Weather-App",
-        "visit-msg": "Visit",
+        "visit-msg": "",
         "visit": ""
     },
     {
@@ -32,7 +32,7 @@ const projects = [
         "tech": "Javascript | React | HTML | CSS | Bootstrap",
         "github": "https://github.com/jrdjessica/portfolio",
         "visit-msg": "",
-        "visit": "https://jrdjessica.github.io/"
+        "visit": "https://jrdjessica.github.io/#/"
     },
 ]
 
