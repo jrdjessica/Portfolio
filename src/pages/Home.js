@@ -19,6 +19,14 @@ const projects = [
         "visit": "https://jrdjessica.github.io/Counting-Cards"
     },
     {
+        "title": "Weather App",
+        "description": "This application allows users to display current and future weather conditions utilizing the OpenWeather API.",
+        "tech": "Python | Javascript | Flask | HTML | CSS | Bootstrap",
+        "github": "https://github.com/Weather-App-Collab/Weather-App",
+        "visit-msg": "Visit",
+        "visit": ""
+    },
+    {
         "title": "Personal Portfolio",
         "description": "A site for my personal projects and career updates to live on. This ongoing project is hosted on Github Pages and is being continuously updated.",
         "tech": "Javascript | React | HTML | CSS | Bootstrap",
